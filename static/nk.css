@@ -1,12 +1,12 @@
 body {
-    background: url("/static/fon.png") repeat;
+    background: url("/images/fon.png") repeat;
     position: relative;
 
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('Roboto.ttf');
+  src: url('/fonts/Roboto.ttf');
 }
 
 
@@ -94,7 +94,7 @@ body {
         left: 41px;
         bottom: 445px;
 
-        background: url(ava.png);
+        background: url(images/ava.png);
         border: 7.74193px solid #441D5E;
         box-sizing: border-box;
         border-radius: 11.6129px;
