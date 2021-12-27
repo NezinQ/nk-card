@@ -188,6 +188,9 @@ body {
         left: 160px;
         top: 33px;
 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
         color: #BEBEBE;
     }
 
@@ -337,7 +340,7 @@ body {
         width: 504px;
         height: 504px;
         left: -8px;
-        top: 208px;
+        top: 408px;
 
         background: #441D5E;
         border-radius: 12.5803px
@@ -350,7 +353,7 @@ body {
         width: 504px;
         height: 504px;
         left: -8px;
-        top: 208px;
+        top: 408px;
 
         background: #441D5E;
         border-radius: 12.5803px
