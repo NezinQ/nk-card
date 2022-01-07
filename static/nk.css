@@ -169,7 +169,7 @@ body {
 }
 
 
-@media (max-width: 1440px) {
+@media screen and (inmax-width: 1440px) {
     .container {
         position: absolute;
         width: 504px;
@@ -334,7 +334,7 @@ body {
 
 }
 
-@media (max-width: 320px) {
+@media screen and (inmax-width: 320px) {
     .container {
         position: absolute;
         width: 504px;
@@ -347,7 +347,7 @@ body {
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (inmax-width: 375px) {
     .container {
         position: absolute;
         width: 504px;
@@ -360,7 +360,7 @@ body {
     }
 }
 
-@media (max-width: 425px) {
+@media screen and (inmax-width: 425px) {
     .container {
         position: absolute;
         width: 504px;
@@ -373,7 +373,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (inmax-width: 768px) {
     .container {
         position: absolute;
         width: 504px;
@@ -386,7 +386,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (inmax-width: 1024px) {
     .container {
         position: absolute;
         width: 504px;
