@@ -1,7 +1,6 @@
 body {
     background: url("images/fon.png") repeat;
     position: relative;
-
 }
 
 @font-face {
@@ -169,7 +168,7 @@ body {
 }
 
 
-@media screen and (inmax-width: 1440px) {
+@media (inmax-width: 1440px) {
     .container {
         position: absolute;
         width: 504px;
@@ -334,7 +333,7 @@ body {
 
 }
 
-@media screen and (inmax-width: 320px) {
+@media (inmax-width: 320px) {
     .container {
         position: absolute;
         width: 504px;
@@ -347,7 +346,7 @@ body {
     }
 }
 
-@media screen and (inmax-width: 375px) {
+@media (inmax-width: 375px) {
     .container {
         position: absolute;
         width: 504px;
@@ -360,7 +359,7 @@ body {
     }
 }
 
-@media screen and (inmax-width: 425px) {
+@media (inmax-width: 425px) {
     .container {
         position: absolute;
         width: 504px;
@@ -373,7 +372,7 @@ body {
     }
 }
 
-@media screen and (inmax-width: 768px) {
+@media (inmax-width: 768px) {
     .container {
         position: absolute;
         width: 504px;
@@ -386,7 +385,7 @@ body {
     }
 }
 
-@media screen and (inmax-width: 1024px) {
+@media (inmax-width: 1024px) {
     .container {
         position: absolute;
         width: 504px;
