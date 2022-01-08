@@ -1,11 +1,16 @@
+:root {
+    -bg: url("images/fon.png");
+    -font: url('/static/fonts/Roboto.ttf');
+}
+
 body {
-    background: url("images/fon.png") repeat;
+    background: var(-bg) repeat;
     position: relative;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url('/static/fonts/Roboto.ttf');
+  src: var(-font);
 }
 
 .container {
