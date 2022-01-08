@@ -1,6 +1,7 @@
 :root {
     --bg: url("images/fon.png");
     --font: url("/static/fonts/Roboto.ttf");
+    --avatar: url(/static/images/ava.png);
 }
 
 body {
@@ -96,7 +97,7 @@ body {
     left: 41px;
     bottom: 445px;
 
-    background: url(/static/images/ava.png);
+    background: var(--avatar)
     border: 7.74193px solid #441D5E;
     box-sizing: border-box;
     border-radius: 11.6129px;
@@ -260,7 +261,7 @@ body {
         left: 41px;
         bottom: 445px;
 
-        background: url(/static/images/ava.png);
+        background: var(--avatar)
         border: 7.74193px solid #441D5E;
         box-sizing: border-box;
         border-radius: 11.6129px;
@@ -382,7 +383,7 @@ body {
         position: absolute;
         width: 504px;
         height: 504px;
-        top: 140px;
+        top: 440px;
         left: 240px;
 
         background: #441D5E;
