@@ -150,7 +150,7 @@ body {
     position: absolute;
     width: 51px;
     height: 51px;
-    left: 190px;
+    left: 150px;
     top: 318px;
     transition: 0.5s;
 }
@@ -168,7 +168,7 @@ body {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 290px;
+    left: 250px;
     top: 318px;
     transition: 0.5s;
 }
@@ -177,7 +177,7 @@ body {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 390px;
+    left: 350px;
     top: 318px;
     transition: 0.5s;
 }
