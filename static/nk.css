@@ -1,7 +1,7 @@
 :root {
     --bg: url("images/fon.png");
     --font: url("fonts/Roboto.ttf");
-    --avatar: url(images/ava.png);
+    --avatar: url("images/ava.png");
 }
 
 body {
@@ -10,9 +10,6 @@ body {
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Roboto";
 }
 
