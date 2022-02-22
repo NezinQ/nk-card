@@ -9,9 +9,23 @@ body {
     position: relative;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
 @font-face {
   font-family: "Roboto";
   src: var(--font);
+}
+
+.locked {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
 }
 
 .container {
