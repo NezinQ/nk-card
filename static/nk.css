@@ -1,7 +1,7 @@
 :root {
     --bg: url("images/fon.png");
-    --font: url("fonts/Roboto.ttf");
-    --avatar: url("images/ava.png");
+    --font: url("static/fonts/Gotham.ttf");
+    --avatar: url("static/images/ava.png");
 }
 
 body {
