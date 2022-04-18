@@ -184,18 +184,14 @@ body {
 
 ul {
     display: inline;
-}
-
-li:firs-child {
-    margin-left: 170px;
-    list-style: none;
-    display: inline;
+    width: 434px;
+    magin-left: 170px;
+    magin-right: 170px;
 }
 
 li {
     margin-left: 70px;
     list-style: none;
-    display: inline;
 }
 
 @media (min-width: 1440px) {
