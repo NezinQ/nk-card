@@ -190,6 +190,7 @@ ul {
 }
 
 li {
+    display:inline;
     margin-left: 70px;
     list-style: none;
 }
