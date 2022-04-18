@@ -159,41 +159,36 @@ body {
 }
 
 .discord {
-    position: absolute;
+    transition: 0.5s;
     width: 51px;
     height: 51px;
-    left: 170px;
-    top: 318px;
-    transition: 0.5s;
 }
 
 .steam {
-    position: absolute;
+    transition: 0.5s;
     width: 51px;
     height: 51px;
-    left: 70px;
-    top: 318px;
-    transition: 0.5s;
 }
 
 .github {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 270px;
-    top: 318px;
     transition: 0.5s;
+    width: 51px;
+    height: 51px;
 }
 
 .deathly {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 370px;
-    top: 318px;
     transition: 0.5s;
+    width: 51px;
+    height: 51px;
 }
 
+li:firs-child {
+    margin-left: 170px;
+}
+
+li {
+    margin-left: 70px;
+}
 
 @media (min-width: 1440px) {
     .container {
@@ -329,47 +324,6 @@ body {
         border: 8.72984px solid #9A67C2;
         box-sizing: border-box;
         border-radius: 26.1895px;
-    }
-
-    .discord {
-        position: absolute;
-        width: 51px;
-        height: 51px;
-        left: 220px;
-        top: 318px;
-        transition: 0.5s;
-    }
-
-    .steam {
-        position: absolute;
-        width: 51px;
-        height: 51px;
-        left: 120px;
-        top: 318px;
-        transition: 0.5s;
-    }
-
-    .github {
-        position: absolute;
-        width: 48px;
-        height: 48px;
-        left: 320px;
-        top: 318px;
-        transition: 0.5s;
-    }
-
-}
-
-@media (min-width: 320px) {
-    .container {
-        position: absolute;
-        width: 504px;
-        height: 504px;
-        top: 600px;
-        left: 240px;
-
-        background: #441D5E;
-        border-radius: 12.5803px
     }
 }
 
