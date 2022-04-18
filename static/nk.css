@@ -189,11 +189,13 @@ ul {
 li:firs-child {
     margin-left: 170px;
     list-style: none;
+    display: inline;
 }
 
 li {
     margin-left: 70px;
     list-style: none;
+    display: inline;
 }
 
 @media (min-width: 1440px) {
