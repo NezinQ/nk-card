@@ -182,12 +182,18 @@ body {
     height: 51px;
 }
 
+ul {
+    display: inline;
+}
+
 li:firs-child {
     margin-left: 170px;
+    list-style: none;
 }
 
 li {
     margin-left: 70px;
+    list-style: none;
 }
 
 @media (min-width: 1440px) {
