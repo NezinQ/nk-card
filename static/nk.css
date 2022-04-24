@@ -7,7 +7,6 @@
 }
 
 body {
-    background: var(--bg) repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +26,42 @@ body {
     -moz-user-select: none;
 }
 
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #aa2fe2 50%, #7e1bac 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+
+.bg3 {
+    animation-duration:5s;
+}
+
+
+@keyframes slide {
+    0% {
+        transform:translateX(-25%);
+    }
+    100% {
+        transform:translateX(25%);
+    }
+}
+
+.point {
+    cursor: help;
+    color: #D1D0D0;
+}
 
 .container {
     background: #441D5E;
@@ -109,7 +144,7 @@ body {
     height: 20px;
     width: 105px;
     margin-left: 120px;
-    margin-top: -15px;
+    margin-top: -25px;
 }
 
 .tag {
