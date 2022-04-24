@@ -8,7 +8,9 @@
 
 body {
     background: var(--bg) repeat;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 *{
@@ -27,64 +29,29 @@ body {
 
 
 .container {
-    position: absolute;
-    width: 504px;
-    height: 504px;
-    left: 936px;
-    top: 208px;
-
     background: #441D5E;
-    border-radius: 12.5803px
+    border-radius: 12.5803px;
+    padding: 0 15px 0 25px;
 }
 
 .desc {
-    position: absolute;
-    width: 158px;
-    height: 39px;
-    left: 160px;
-    top: 33px;
-
     color: #BEBEBE;
 }
 
 .decor-line {
-    position: absolute;
-    width: 434px;
-    height: 0px;
-    left: 36px;
-    top: 80px;
-
     border: 0.865776px solid #8A2AB8;
 }
 
 .decor-line2 {
-    position: absolute;
-    width: 434px;
-    height: 0px;
-    left: 36px;
-    top: 220px;
-
     border: 0.865776px solid #8A2AB8;
 }
 
 .decor-line3 {
-    position: absolute;
-    width: 76.01px;
-    height: 0px;
-    left: 38px;
-    top: 35px;
-
     border: 1px solid #D1D0D0;
     transform: rotate(90.75deg);
 }
 
 .bio {
-    position: absolute;
-    width: 209px;
-    height: 65.78px;
-    left: 90px;
-    top: 0px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -92,14 +59,6 @@ body {
     line-height: 22px;
 
     color: #D1D0D0;
-}
-
-.bage {
-    position: absolute;
-    width: 49px;
-    height: 44px;
-    left: 14px;
-    top: 13px;
 }
 
 .avatar {
