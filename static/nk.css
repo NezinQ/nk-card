@@ -186,8 +186,8 @@ ul {
     display: inline;
     width: 434px;
     height: 51px;
-    paddingn-top: 300px;
-    padding-left: 100px;
+    paddingn-bottom: -300px;
+    padding-left: 80px;
 }
 
 li {
