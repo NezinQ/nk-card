@@ -3,7 +3,6 @@
 :root {
     --bg: url("images/fon.png");
     --font: url("static/fonts/Gotham.ttf");
-    --avatar: url("static/images/ava.png");
 }
 
 body {
