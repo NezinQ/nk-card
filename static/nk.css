@@ -263,9 +263,10 @@ li {
     position: relative;
     background-color: white;
     margin: auto;
+    margin-top: 150px;
     padding: 0;
-    border: 1px solid #888;
-    width: 80%;
+    width: 35%;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -277,7 +278,7 @@ li {
     from {
         top: -300px;
         opacity: 0;
-    },
+    }
     to {
         top: 0;
         opacity: 1;
@@ -304,7 +305,7 @@ li {
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #aaa9a9;
     text-decoration: none;
     cursor: pointer;
 }
@@ -314,12 +315,32 @@ li {
     background-color: #5f2f80;
     color: white;
     height: 35px;
+    border-radius: 5px 5px 0 0;
 }
 
 .modal-title {
-	margin-top: 4px;
+	margin-top: 8px;
+    font-size: 17px;
 }
 
 .modal-body {
 	padding: 2px 16px;
+}
+
+.rep {
+    width: 45px;
+    height: 45px;
+    bottom: 15px;
+    right: 15px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.rotate g {
+    transition: transform .3s;
+    transform-origin: center center;
+}
+
+.rotate:hover g {
+    transform: rotate(-90deg);
 }
