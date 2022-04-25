@@ -261,7 +261,7 @@ li {
 
 .modal-content {
     position: relative;
-    background-color: white;
+    background-color: #9C75BA;
     margin: auto;
     margin-top: 150px;
     padding: 0;
@@ -271,7 +271,8 @@ li {
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    color: #D1D0D0;
 }
 
 @-webkit-keyframes animatetop {
